@@ -47,10 +47,10 @@ cat myfile.js | jscs
 
 Since this plugin (SublimeLinter-jscs) is executing jscs on your system, you may use .jscsrc files to configure its behavior. See the jscs documentation for more information (http://jscs.info/overview.html#options).
 
-If you wish to run against jsx files, you will need to install esprima-fb with npm install -g esprima-fb add the following lines to your .jscsrc file:
+If you wish to run against jsx files, you will need to install babel and add the following lines to your .jscsrc file:
 
 ...
-    "esprima": "esprima-fb",
+    <reference to babel here>
     "fileExtensions": [".js", ".jsx"],
 ...
 

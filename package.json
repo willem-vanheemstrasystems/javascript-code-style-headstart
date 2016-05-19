@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/willem-vanheemstrasystems/javascript-code-style-headstart#readme",
   "dependencies": {
-    "esprima-fb": "^15001.1001.0-dev-harmony-fb",
     "jscs": "^3.0.3"
   }
 }

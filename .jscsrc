@@ -1,5 +1,4 @@
 {
     "preset": "node-style-guide",
-    "esprima": "esprima-fb",
     "fileExtensions": [".js", ".jsx"]
 }

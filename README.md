@@ -5,9 +5,21 @@ See also http://jscs.info/overview
 
 and https://github.com/felixge/node-style-guide
 
+and https://yannick.cr/posts/enforcing-coding-rules-in-your-team-with-jscs/post
+
 For use with SublimeText 3, use https://github.com/SublimeLinter/SublimeLinter-jscs/
 
 which requires SublimeLinter plugin see http://sublimelinter.readthedocs.io/en/latest/installation.html
+
+* Usage
+
+Run the following command to check the file index.js:
+
+jscs index.js --preset=node-style-guide
+
+Or to have all files in the project checked:
+
+jscs . --preset=node-style-guide
 
 
 # Installation

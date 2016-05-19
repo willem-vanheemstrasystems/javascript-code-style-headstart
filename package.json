@@ -1,0 +1,23 @@
+{
+  "name": "javascript-code-style-headstart",
+  "version": "1.0.0",
+  "description": "JavaScript Code Style - Headstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willem-vanheemstrasystems/javascript-code-style-headstart.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willem-vanheemstrasystems/javascript-code-style-headstart/issues"
+  },
+  "homepage": "https://github.com/willem-vanheemstrasystems/javascript-code-style-headstart#readme",
+  "dependencies": {
+    "esprima-fb": "^15001.1001.0-dev-harmony-fb",
+    "jscs": "^3.0.3"
+  }
+}

@@ -22,6 +22,12 @@ Or to have all files in the project checked:
 jscs . --preset=node-style-guide
 
 
+* Automated checking
+
+Once installed in Sublime Text 3, choose from the menu 'Tools' > 'Sublimelinter' > 'Lint Mode' > 'Background'
+
+Now everytime it detects a mis-styled code in your Javascript code it will highlight it.
+
 # Installation
 
 jscs can be installed using npm:
